@@ -76,127 +76,196 @@
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#address"/>
+        <ObjectProperty IRI="#aboutArtwork"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#amount"/>
+        <ObjectProperty IRI="#appliesTo"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#biography"/>
+        <ObjectProperty IRI="#containsArtwork"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#city"/>
+        <ObjectProperty IRI="#createsAccount"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#comment"/>
+        <ObjectProperty IRI="#createsArtwork"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#cost"/>
+        <ObjectProperty IRI="#deliveredBy"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#country"/>
+        <ObjectProperty IRI="#deliveredTo"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#creationDate"/>
+        <ObjectProperty IRI="#forOrder"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#customerId"/>
+        <ObjectProperty IRI="#hasPromotion"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#deliveryType"/>
+        <ObjectProperty IRI="#haveShippingStatus"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#discount"/>
+        <ObjectProperty IRI="#includedInOrder"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#discountPercentage"/>
+        <ObjectProperty IRI="#ownedBy"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#email"/>
+        <ObjectProperty IRI="#ownsAccount"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#endDate"/>
+        <ObjectProperty IRI="#paidBy"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#frequency"/>
+        <ObjectProperty IRI="#placesOrder"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#lastUpdated"/>
+        <ObjectProperty IRI="#receivesOrder"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#medium"/>
+        <ObjectProperty IRI="#reviewedBy"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#method"/>
+        <ObjectProperty IRI="#statusOf"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#name"/>
+        <ObjectProperty IRI="#subscribedBy"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#newsletterBody"/>
+        <ObjectProperty IRI="#subscribesTo"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#newsletterName"/>
+        <ObjectProperty IRI="#usedForOrder"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#orderDate"/>
+        <ObjectProperty IRI="#writesReview"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#orderId"/>
+        <ObjectProperty IRI="#writtenBy"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#password"/>
+        <DataProperty IRI="#address"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#paymentDate"/>
+        <DataProperty IRI="#amount"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#paymentId"/>
+        <DataProperty IRI="#biography"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#postalCode"/>
+        <DataProperty IRI="#city"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#price"/>
+        <DataProperty IRI="#comment"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#promotionId"/>
+        <DataProperty IRI="#cost"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#rating"/>
+        <DataProperty IRI="#country"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#regionCode"/>
+        <DataProperty IRI="#creationDate"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#reviewDate"/>
+        <DataProperty IRI="#customerId"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#reviewId"/>
+        <DataProperty IRI="#deliveryType"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#shippingStatus"/>
+        <DataProperty IRI="#discount"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#startDate"/>
+        <DataProperty IRI="#discountPercentage"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#stockQuantity"/>
+        <DataProperty IRI="#email"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#storeName"/>
+        <DataProperty IRI="#endDate"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#subscriptionDate"/>
+        <DataProperty IRI="#frequency"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#title"/>
+        <DataProperty IRI="#lastUpdated"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#totalAmount"/>
+        <DataProperty IRI="#medium"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#username"/>
+        <DataProperty IRI="#method"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#newsletterBody"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#newsletterName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#orderDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#orderId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#password"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#paymentDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#paymentId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#postalCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#promotionId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#regionCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reviewDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reviewId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#shippingStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#startDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#stockQuantity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#storeName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#subscriptionDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#totalAmount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#username"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
@@ -269,344 +338,528 @@
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
     </DisjointClasses>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aboutArtwork"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#appliesTo"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsArtwork"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#createsAccount"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#createsArtwork"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#deliveredBy"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#deliveredTo"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#forOrder"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPromotion"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haveShippingStatus"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includedInOrder"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ownedBy"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ownsAccount"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#paidBy"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#placesOrder"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receivesOrder"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#reviewedBy"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#statusOf"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#subscribedBy"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#subscribesTo"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usedForOrder"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#writesReview"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#writtenBy"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aboutArtwork"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#appliesTo"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsArtwork"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#createsAccount"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#createsArtwork"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#deliveredBy"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#deliveredTo"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#forOrder"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPromotion"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#haveShippingStatus"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includedInOrder"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ownedBy"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ownsAccount"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#paidBy"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#placesOrder"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#receivesOrder"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reviewedBy"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#statusOf"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#subscribedBy"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#subscribesTo"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usedForOrder"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#writesReview"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#writtenBy"/>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+    </ObjectPropertyRange>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#address"/>
+        <DataProperty IRI="#address"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#amount"/>
+        <DataProperty IRI="#amount"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#biography"/>
+        <DataProperty IRI="#biography"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#city"/>
+        <DataProperty IRI="#city"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#comment"/>
+        <DataProperty IRI="#comment"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#cost"/>
+        <DataProperty IRI="#cost"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#country"/>
+        <DataProperty IRI="#country"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#country"/>
+        <DataProperty IRI="#country"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#creationDate"/>
+        <DataProperty IRI="#creationDate"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#creationDate"/>
+        <DataProperty IRI="#creationDate"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#customerId"/>
+        <DataProperty IRI="#customerId"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#deliveryType"/>
+        <DataProperty IRI="#deliveryType"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#discount"/>
+        <DataProperty IRI="#discount"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#discountPercentage"/>
+        <DataProperty IRI="#discountPercentage"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#email"/>
+        <DataProperty IRI="#email"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#endDate"/>
+        <DataProperty IRI="#endDate"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#frequency"/>
+        <DataProperty IRI="#frequency"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#lastUpdated"/>
+        <DataProperty IRI="#lastUpdated"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#medium"/>
+        <DataProperty IRI="#medium"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#medium"/>
+        <DataProperty IRI="#medium"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#medium"/>
+        <DataProperty IRI="#medium"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#method"/>
+        <DataProperty IRI="#method"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#name"/>
+        <DataProperty IRI="#name"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#newsletterBody"/>
+        <DataProperty IRI="#newsletterBody"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#newsletterName"/>
+        <DataProperty IRI="#newsletterName"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#orderDate"/>
+        <DataProperty IRI="#orderDate"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#orderId"/>
+        <DataProperty IRI="#orderId"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#password"/>
+        <DataProperty IRI="#password"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#paymentDate"/>
+        <DataProperty IRI="#paymentDate"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#paymentId"/>
+        <DataProperty IRI="#paymentId"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#postalCode"/>
+        <DataProperty IRI="#postalCode"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#price"/>
+        <DataProperty IRI="#price"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#promotionId"/>
+        <DataProperty IRI="#promotionId"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#rating"/>
+        <DataProperty IRI="#rating"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#regionCode"/>
+        <DataProperty IRI="#regionCode"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#International"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#regionCode"/>
+        <DataProperty IRI="#regionCode"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#National"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#reviewDate"/>
+        <DataProperty IRI="#reviewDate"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#reviewId"/>
+        <DataProperty IRI="#reviewId"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#shippingStatus"/>
+        <DataProperty IRI="#shippingStatus"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#startDate"/>
+        <DataProperty IRI="#startDate"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#stockQuantity"/>
+        <DataProperty IRI="#stockQuantity"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#storeName"/>
+        <DataProperty IRI="#storeName"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#subscriptionDate"/>
+        <DataProperty IRI="#subscriptionDate"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#title"/>
+        <DataProperty IRI="#title"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#totalAmount"/>
+        <DataProperty IRI="#totalAmount"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#username"/>
+        <DataProperty IRI="#username"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#address"/>
+        <DataProperty IRI="#address"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#amount"/>
+        <DataProperty IRI="#amount"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#city"/>
+        <DataProperty IRI="#city"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#comment"/>
+        <DataProperty IRI="#comment"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#cost"/>
+        <DataProperty IRI="#cost"/>
         <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#creationDate"/>
+        <DataProperty IRI="#creationDate"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#customerId"/>
+        <DataProperty IRI="#customerId"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#deliveryType"/>
+        <DataProperty IRI="#deliveryType"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#discount"/>
+        <DataProperty IRI="#discount"/>
         <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#discountPercentage"/>
+        <DataProperty IRI="#discountPercentage"/>
         <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#email"/>
+        <DataProperty IRI="#email"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#endDate"/>
+        <DataProperty IRI="#endDate"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#frequency"/>
+        <DataProperty IRI="#frequency"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#lastUpdated"/>
+        <DataProperty IRI="#lastUpdated"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#medium"/>
+        <DataProperty IRI="#medium"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#method"/>
+        <DataProperty IRI="#method"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#name"/>
+        <DataProperty IRI="#name"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#newsletterBody"/>
+        <DataProperty IRI="#newsletterBody"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#newsletterName"/>
+        <DataProperty IRI="#newsletterName"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#orderDate"/>
+        <DataProperty IRI="#orderDate"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#orderId"/>
+        <DataProperty IRI="#orderId"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#password"/>
+        <DataProperty IRI="#password"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#paymentDate"/>
+        <DataProperty IRI="#paymentDate"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#paymentId"/>
+        <DataProperty IRI="#paymentId"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#postalCode"/>
+        <DataProperty IRI="#postalCode"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#price"/>
+        <DataProperty IRI="#price"/>
         <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#promotionId"/>
+        <DataProperty IRI="#promotionId"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#rating"/>
+        <DataProperty IRI="#rating"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#regionCode"/>
+        <DataProperty IRI="#regionCode"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#reviewDate"/>
+        <DataProperty IRI="#reviewDate"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#reviewId"/>
+        <DataProperty IRI="#reviewId"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#shippingStatus"/>
+        <DataProperty IRI="#shippingStatus"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#startDate"/>
+        <DataProperty IRI="#startDate"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#stockQuantity"/>
+        <DataProperty IRI="#stockQuantity"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#storeName"/>
+        <DataProperty IRI="#storeName"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#subscriptionDate"/>
+        <DataProperty IRI="#subscriptionDate"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#title"/>
+        <DataProperty IRI="#title"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#totalAmount"/>
+        <DataProperty IRI="#totalAmount"/>
         <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/uutsavachaontologyprj/OnlineArtStoreOntology.owl#username"/>
+        <DataProperty IRI="#username"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
 </Ontology>
