@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Artist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Customer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delivered"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeliveryLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeliveryMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InTransit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#International"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#National"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewsLetter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OnlineAccount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Order"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Owner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Payment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Promotion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegisteredCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegularCustomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Review"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShippingStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sketch"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Artist"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Customer"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delivered"/>
+        <Class IRI="#ShippingStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital"/>
+        <Class IRI="#Artwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InTransit"/>
+        <Class IRI="#ShippingStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#International"/>
+        <Class IRI="#DeliveryLocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#National"/>
+        <Class IRI="#DeliveryLocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Owner"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paint"/>
+        <Class IRI="#Artwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Processing"/>
+        <Class IRI="#ShippingStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegisteredCustomer"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegularCustomer"/>
+        <Class IRI="#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sketch"/>
+        <Class IRI="#Artwork"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Artist"/>
+        <Class IRI="#Customer"/>
+        <Class IRI="#Owner"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Artwork"/>
+        <Class IRI="#DeliveryLocation"/>
+        <Class IRI="#DeliveryMethod"/>
+        <Class IRI="#NewsLetter"/>
+        <Class IRI="#OnlineAccount"/>
+        <Class IRI="#Order"/>
+        <Class IRI="#Payment"/>
+        <Class IRI="#Person"/>
+        <Class IRI="#Promotion"/>
+        <Class IRI="#Review"/>
+        <Class IRI="#ShippingStatus"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Delivered"/>
+        <Class IRI="#InTransit"/>
+        <Class IRI="#Processing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Digital"/>
+        <Class IRI="#Paint"/>
+        <Class IRI="#Sketch"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#International"/>
+        <Class IRI="#National"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#RegisteredCustomer"/>
+        <Class IRI="#RegularCustomer"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
