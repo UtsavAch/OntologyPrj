@@ -15,10 +15,16 @@
         <Class IRI="#CompletedOrder"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CustomerActivity"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#InternationalOrder"/>
     </Declaration>
     <Declaration>
         <Class IRI="#NationalOrder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrderInformation"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
@@ -519,6 +525,33 @@
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <Class IRI="#NationalOrder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+        </ObjectUnionOf>
+        <Class IRI="#OrderInformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#placesOrder"/>
+                <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#receivesOrder"/>
+                <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#writesReview"/>
+                <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+        <Class IRI="#CustomerActivity"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
