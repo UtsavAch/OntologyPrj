@@ -207,9 +207,6 @@
         <DataProperty IRI="#lastUpdated"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#medium"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#method"/>
     </Declaration>
     <Declaration>
@@ -280,6 +277,33 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#username"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_VanGogh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_Vinci"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Art_StarryNight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Art_VitruvianMan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C_Utsav"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NL_Promo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OA_Alice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RC_Luis"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
@@ -618,6 +642,234 @@
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
     </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
+        <NamedIndividual IRI="#A_VanGogh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <NamedIndividual IRI="#A_VanGogh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
+        <NamedIndividual IRI="#A_Vinci"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <NamedIndividual IRI="#A_Vinci"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+        <NamedIndividual IRI="#Alice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <NamedIndividual IRI="#Alice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <NamedIndividual IRI="#Art_StarryNight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
+        <NamedIndividual IRI="#Art_StarryNight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <NamedIndividual IRI="#Art_VitruvianMan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
+        <NamedIndividual IRI="#Art_VitruvianMan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <NamedIndividual IRI="#C_Utsav"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <NamedIndividual IRI="#C_Utsav"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
+        <NamedIndividual IRI="#C_Utsav"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
+        <NamedIndividual IRI="#NL_Promo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <NamedIndividual IRI="#RC_Luis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <NamedIndividual IRI="#RC_Luis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
+        <NamedIndividual IRI="#RC_Luis"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createsArtwork"/>
+        <NamedIndividual IRI="#A_VanGogh"/>
+        <NamedIndividual IRI="#Art_StarryNight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#createsArtwork"/>
+        <NamedIndividual IRI="#A_Vinci"/>
+        <NamedIndividual IRI="#Art_VitruvianMan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownsAccount"/>
+        <NamedIndividual IRI="#Alice"/>
+        <NamedIndividual IRI="#OA_Alice"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#subscribedBy"/>
+        <NamedIndividual IRI="#NL_Promo"/>
+        <NamedIndividual IRI="#RC_Luis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ownedBy"/>
+        <NamedIndividual IRI="#OA_Alice"/>
+        <NamedIndividual IRI="#Alice"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#subscribesTo"/>
+        <NamedIndividual IRI="#RC_Luis"/>
+        <NamedIndividual IRI="#NL_Promo"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#biography"/>
+        <NamedIndividual IRI="#A_VanGogh"/>
+        <Literal>The dutch legend</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#email"/>
+        <NamedIndividual IRI="#A_VanGogh"/>
+        <Literal>gogh@example.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#A_VanGogh"/>
+        <Literal>Van Gogh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#biography"/>
+        <NamedIndividual IRI="#A_Vinci"/>
+        <Literal>The italian legend</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#email"/>
+        <NamedIndividual IRI="#A_Vinci"/>
+        <Literal>vinci@example.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#A_Vinci"/>
+        <Literal>Leonardo Da Vinci</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#email"/>
+        <NamedIndividual IRI="#Alice"/>
+        <Literal>alice@example.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Alice"/>
+        <Literal>Alice</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#storeName"/>
+        <NamedIndividual IRI="#Alice"/>
+        <Literal>Alice Art Store</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Art_StarryNight"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#stockQuantity"/>
+        <NamedIndividual IRI="#Art_StarryNight"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Art_StarryNight"/>
+        <Literal>Starry Night</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Art_VitruvianMan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#stockQuantity"/>
+        <NamedIndividual IRI="#Art_VitruvianMan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Art_VitruvianMan"/>
+        <Literal>Virtuvian Man</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#customerId"/>
+        <NamedIndividual IRI="#C_Utsav"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#email"/>
+        <NamedIndividual IRI="#C_Utsav"/>
+        <Literal>utsav@example.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#C_Utsav"/>
+        <Literal>Utsav</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#frequency"/>
+        <NamedIndividual IRI="#NL_Promo"/>
+        <Literal>monthly</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#newsletterBody"/>
+        <NamedIndividual IRI="#NL_Promo"/>
+        <Literal>50% discount for every arts for registered customers</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#newsletterName"/>
+        <NamedIndividual IRI="#NL_Promo"/>
+        <Literal>Monthly Promo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#username"/>
+        <NamedIndividual IRI="#OA_Alice"/>
+        <Literal>alice123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#username"/>
+        <NamedIndividual IRI="#OA_Alice"/>
+        <Literal>pass123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#customerId"/>
+        <NamedIndividual IRI="#RC_Luis"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#email"/>
+        <NamedIndividual IRI="#RC_Luis"/>
+        <Literal>luis@example.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#RC_Luis"/>
+        <Literal>Luis</Literal>
+    </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#aboutArtwork"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
@@ -828,10 +1080,6 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#country"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#country"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -873,18 +1121,6 @@
     <DataPropertyDomain>
         <DataProperty IRI="#lastUpdated"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#medium"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#medium"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#medium"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#method"/>
@@ -1007,6 +1243,10 @@
         <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#country"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#creationDate"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
@@ -1041,10 +1281,6 @@
     <DataPropertyRange>
         <DataProperty IRI="#lastUpdated"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#medium"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#method"/>
