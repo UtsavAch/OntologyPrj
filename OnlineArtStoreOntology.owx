@@ -306,7 +306,16 @@
         <NamedIndividual IRI="#OA_Alice"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#P_Promotion1"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#RC_Luis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R_Review1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R_Review2"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
@@ -722,6 +731,10 @@
         <NamedIndividual IRI="#NL_Promo"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <NamedIndividual IRI="#P_Promotion1"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
         <NamedIndividual IRI="#RC_Luis"/>
     </ClassAssertion>
@@ -732,6 +745,14 @@
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
         <NamedIndividual IRI="#RC_Luis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <NamedIndividual IRI="#R_Review1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <NamedIndividual IRI="#R_Review2"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#createsArtwork"/>
@@ -749,6 +770,16 @@
         <NamedIndividual IRI="#OA_Alice"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPromotion"/>
+        <NamedIndividual IRI="#Art_StarryNight"/>
+        <NamedIndividual IRI="#P_Promotion1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#writesReview"/>
+        <NamedIndividual IRI="#C_Utsav"/>
+        <NamedIndividual IRI="#R_Review2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#subscribedBy"/>
         <NamedIndividual IRI="#NL_Promo"/>
         <NamedIndividual IRI="#RC_Luis"/>
@@ -759,9 +790,39 @@
         <NamedIndividual IRI="#Alice"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appliesTo"/>
+        <NamedIndividual IRI="#P_Promotion1"/>
+        <NamedIndividual IRI="#Art_StarryNight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#subscribesTo"/>
         <NamedIndividual IRI="#RC_Luis"/>
         <NamedIndividual IRI="#NL_Promo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#writesReview"/>
+        <NamedIndividual IRI="#RC_Luis"/>
+        <NamedIndividual IRI="#R_Review1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aboutArtwork"/>
+        <NamedIndividual IRI="#R_Review1"/>
+        <NamedIndividual IRI="#Art_StarryNight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#writtenBy"/>
+        <NamedIndividual IRI="#R_Review1"/>
+        <NamedIndividual IRI="#RC_Luis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aboutArtwork"/>
+        <NamedIndividual IRI="#R_Review2"/>
+        <NamedIndividual IRI="#Art_VitruvianMan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#writtenBy"/>
+        <NamedIndividual IRI="#R_Review2"/>
+        <NamedIndividual IRI="#C_Utsav"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#biography"/>
@@ -879,6 +940,16 @@
         <Literal>pass123</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#discountPercentage"/>
+        <NamedIndividual IRI="#P_Promotion1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#promotionId"/>
+        <NamedIndividual IRI="#P_Promotion1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#customerId"/>
         <NamedIndividual IRI="#RC_Luis"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">001</Literal>
@@ -892,6 +963,36 @@
         <DataProperty IRI="#name"/>
         <NamedIndividual IRI="#RC_Luis"/>
         <Literal>Luis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comment"/>
+        <NamedIndividual IRI="#R_Review1"/>
+        <Literal>Amazing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rating"/>
+        <NamedIndividual IRI="#R_Review1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#reviewId"/>
+        <NamedIndividual IRI="#R_Review1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comment"/>
+        <NamedIndividual IRI="#R_Review2"/>
+        <Literal>Incredible Sketch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rating"/>
+        <NamedIndividual IRI="#R_Review2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#reviewId"/>
+        <NamedIndividual IRI="#R_Review2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
     </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#aboutArtwork"/>
