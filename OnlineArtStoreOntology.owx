@@ -374,28 +374,82 @@
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
+        </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#International"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#International"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#National"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#National"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#National"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#International"/>
+        </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
+        </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
@@ -404,6 +458,18 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
+        <ObjectComplementOf>
+            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
+        </ObjectComplementOf>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
