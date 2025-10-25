@@ -246,9 +246,6 @@
         <DataProperty IRI="#rating"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#regionCode"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#reviewDate"/>
     </Declaration>
     <Declaration>
@@ -297,6 +294,12 @@
         <NamedIndividual IRI="#C_Utsav"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#DL_DeliveryLocation1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DM_DeliveryMethod1"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#NL_Promo"/>
     </Declaration>
     <Declaration>
@@ -304,6 +307,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#O_Order1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_Payment1"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#P_Promotion1"/>
@@ -316,6 +322,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#R_Review2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#S_ShippingStatus1"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
@@ -707,12 +716,36 @@
         <NamedIndividual IRI="#C_Utsav"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#CustomerActivity"/>
+        <NamedIndividual IRI="#DL_DeliveryLocation1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+        <NamedIndividual IRI="#DL_DeliveryLocation1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#National"/>
+        <NamedIndividual IRI="#DL_DeliveryLocation1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+        <NamedIndividual IRI="#DM_DeliveryMethod1"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
         <NamedIndividual IRI="#NL_Promo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
         <NamedIndividual IRI="#OA_Alice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <NamedIndividual IRI="#O_Order1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+        <NamedIndividual IRI="#P_Payment1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
@@ -737,6 +770,10 @@
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
         <NamedIndividual IRI="#R_Review2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+        <NamedIndividual IRI="#S_ShippingStatus1"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#createsArtwork"/>
@@ -764,6 +801,16 @@
         <NamedIndividual IRI="#R_Review2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#receivesOrder"/>
+        <NamedIndividual IRI="#DL_DeliveryLocation1"/>
+        <NamedIndividual IRI="#O_Order1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedForOrder"/>
+        <NamedIndividual IRI="#DM_DeliveryMethod1"/>
+        <NamedIndividual IRI="#O_Order1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#subscribedBy"/>
         <NamedIndividual IRI="#NL_Promo"/>
         <NamedIndividual IRI="#RC_Luis"/>
@@ -772,6 +819,36 @@
         <ObjectProperty IRI="#ownedBy"/>
         <NamedIndividual IRI="#OA_Alice"/>
         <NamedIndividual IRI="#Alice"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#containsArtwork"/>
+        <NamedIndividual IRI="#O_Order1"/>
+        <NamedIndividual IRI="#Art_StarryNight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#deliveredBy"/>
+        <NamedIndividual IRI="#O_Order1"/>
+        <NamedIndividual IRI="#DM_DeliveryMethod1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#deliveredTo"/>
+        <NamedIndividual IRI="#O_Order1"/>
+        <NamedIndividual IRI="#DL_DeliveryLocation1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveShippingStatus"/>
+        <NamedIndividual IRI="#O_Order1"/>
+        <NamedIndividual IRI="#S_ShippingStatus1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paidBy"/>
+        <NamedIndividual IRI="#O_Order1"/>
+        <NamedIndividual IRI="#P_Payment1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#forOrder"/>
+        <NamedIndividual IRI="#P_Payment1"/>
+        <NamedIndividual IRI="#O_Order1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#appliesTo"/>
@@ -807,6 +884,11 @@
         <ObjectProperty IRI="#writtenBy"/>
         <NamedIndividual IRI="#R_Review2"/>
         <NamedIndividual IRI="#C_Utsav"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#statusOf"/>
+        <NamedIndividual IRI="#S_ShippingStatus1"/>
+        <NamedIndividual IRI="#O_Order1"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#biography"/>
@@ -899,6 +981,36 @@
         <Literal>Utsav</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#DL_DeliveryLocation1"/>
+        <Literal>Street A, 123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#city"/>
+        <NamedIndividual IRI="#DL_DeliveryLocation1"/>
+        <Literal>Lisbon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#DL_DeliveryLocation1"/>
+        <Literal>Portugal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#postalCode"/>
+        <NamedIndividual IRI="#DL_DeliveryLocation1"/>
+        <Literal>1000-001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#DM_DeliveryMethod1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deliveryType"/>
+        <NamedIndividual IRI="#DM_DeliveryMethod1"/>
+        <Literal>Courier</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#frequency"/>
         <NamedIndividual IRI="#NL_Promo"/>
         <Literal>monthly</Literal>
@@ -922,6 +1034,36 @@
         <DataProperty IRI="#username"/>
         <NamedIndividual IRI="#OA_Alice"/>
         <Literal>pass123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#discount"/>
+        <NamedIndividual IRI="#O_Order1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#orderId"/>
+        <NamedIndividual IRI="#O_Order1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#totalAmount"/>
+        <NamedIndividual IRI="#O_Order1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#amount"/>
+        <NamedIndividual IRI="#P_Payment1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#method"/>
+        <NamedIndividual IRI="#P_Payment1"/>
+        <Literal>CreditCard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#paymentId"/>
+        <NamedIndividual IRI="#P_Payment1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#discountPercentage"/>
@@ -977,6 +1119,11 @@
         <DataProperty IRI="#reviewId"/>
         <NamedIndividual IRI="#R_Review2"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#shippingStatus"/>
+        <NamedIndividual IRI="#S_ShippingStatus1"/>
+        <Literal>Delivered</Literal>
     </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#aboutArtwork"/>
@@ -1281,14 +1428,6 @@
     <DataPropertyDomain>
         <DataProperty IRI="#rating"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#regionCode"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#International"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#regionCode"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#National"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#reviewDate"/>
@@ -1441,10 +1580,6 @@
     <DataPropertyRange>
         <DataProperty IRI="#rating"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#regionCode"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#reviewDate"/>
