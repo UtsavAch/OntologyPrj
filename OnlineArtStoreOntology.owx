@@ -27,9 +27,6 @@
         <Class IRI="#OrderInformation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OrderProcess"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
     </Declaration>
     <Declaration>
@@ -306,6 +303,9 @@
         <NamedIndividual IRI="#OA_Alice"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#O_Order1"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#P_Promotion1"/>
     </Declaration>
     <Declaration>
@@ -437,14 +437,6 @@
         </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
-        <Class IRI="#OrderProcess"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
-        <Class IRI="#OrderProcess"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </SubClassOf>
@@ -481,10 +473,6 @@
         </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
-        <Class IRI="#OrderProcess"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
     </SubClassOf>
@@ -511,10 +499,6 @@
         </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
-        <Class IRI="#OrderProcess"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
     </SubClassOf>
@@ -527,10 +511,6 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
-        <Class IRI="#OrderProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
@@ -729,6 +709,10 @@
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
         <NamedIndividual IRI="#NL_Promo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+        <NamedIndividual IRI="#OA_Alice"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
