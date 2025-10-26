@@ -28,67 +28,67 @@
         <Class IRI="#OrderInformation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#International"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#International"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#National"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#National"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#aboutArtwork"/>
@@ -328,257 +328,257 @@
         <NamedIndividual IRI="#S_ShippingStatus1"/>
     </Declaration>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#createsArtwork"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasPromotion"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#placesOrder"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#containsArtwork"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#haveShippingStatus"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#deliveredBy"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
         </ObjectExactCardinality>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#deliveredTo"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
         </ObjectExactCardinality>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#paidBy"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
         </ObjectExactCardinality>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#ownsAccount"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
         </ObjectExactCardinality>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#forOrder"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
         </ObjectExactCardinality>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#appliesTo"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#subscribesTo"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#aboutArtwork"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
         </ObjectExactCardinality>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#writtenBy"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
         </ObjectExactCardinality>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#statusOf"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
         </ObjectExactCardinality>
     </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
         <ObjectComplementOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
         </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
         <ObjectComplementOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
         </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
         <ObjectComplementOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
         </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#International"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#International"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#International"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#International"/>
         <ObjectComplementOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#National"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#National"/>
         </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#National"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#National"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#National"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#National"/>
         <ObjectComplementOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#International"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#International"/>
         </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
         <ObjectComplementOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
         </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
         <ObjectComplementOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
         </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
         <ObjectComplementOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
         </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
         <ObjectComplementOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
         </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
         <ObjectComplementOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
         </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
         <ObjectComplementOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
         </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#deliveredBy"/>
-                <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+                <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#paidBy"/>
-                <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+                <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <Class IRI="#CompletedOrder"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#deliveredTo"/>
-                <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#International"/>
+                <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#International"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <Class IRI="#InternationalOrder"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#deliveredTo"/>
-                <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#National"/>
+                <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#National"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <Class IRI="#NationalOrder"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectUnionOf>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
-            <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+            <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
         </ObjectUnionOf>
         <Class IRI="#OrderInformation"/>
     </SubClassOf>
@@ -586,134 +586,134 @@
         <ObjectUnionOf>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#placesOrder"/>
-                <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+                <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#receivesOrder"/>
-                <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+                <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#writesReview"/>
-                <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+                <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
             </ObjectSomeValuesFrom>
         </ObjectUnionOf>
         <Class IRI="#CustomerActivity"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Digital"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#International"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#National"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#International"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#National"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
     </DisjointClasses>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
         <NamedIndividual IRI="#A_VanGogh"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
         <NamedIndividual IRI="#A_VanGogh"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
         <NamedIndividual IRI="#A_Vinci"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
         <NamedIndividual IRI="#A_Vinci"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
         <NamedIndividual IRI="#Alice"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
         <NamedIndividual IRI="#Alice"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
         <NamedIndividual IRI="#Art_StarryNight"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Paint"/>
         <NamedIndividual IRI="#Art_StarryNight"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
         <NamedIndividual IRI="#Art_VitruvianMan"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Sketch"/>
         <NamedIndividual IRI="#Art_VitruvianMan"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
         <NamedIndividual IRI="#C_Utsav"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
         <NamedIndividual IRI="#C_Utsav"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#RegularCustomer"/>
         <NamedIndividual IRI="#C_Utsav"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -721,59 +721,59 @@
         <NamedIndividual IRI="#DL_DeliveryLocation1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
         <NamedIndividual IRI="#DL_DeliveryLocation1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#National"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#National"/>
         <NamedIndividual IRI="#DL_DeliveryLocation1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
         <NamedIndividual IRI="#DM_DeliveryMethod1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
         <NamedIndividual IRI="#NL_Promo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
         <NamedIndividual IRI="#OA_Alice"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
         <NamedIndividual IRI="#O_Order1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
         <NamedIndividual IRI="#P_Payment1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
         <NamedIndividual IRI="#P_Promotion1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
         <NamedIndividual IRI="#RC_Luis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
         <NamedIndividual IRI="#RC_Luis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
         <NamedIndividual IRI="#RC_Luis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
         <NamedIndividual IRI="#R_Review1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
         <NamedIndividual IRI="#R_Review2"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
         <NamedIndividual IRI="#S_ShippingStatus1"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
@@ -1128,347 +1128,347 @@
     </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#aboutArtwork"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#appliesTo"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#containsArtwork"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#createsAccount"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#createsArtwork"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#deliveredBy"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#deliveredTo"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#forOrder"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasPromotion"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#haveShippingStatus"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#includedInOrder"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#ownedBy"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#ownsAccount"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#paidBy"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#placesOrder"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#receivesOrder"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#reviewedBy"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#statusOf"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#subscribedBy"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#subscribesTo"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#usedForOrder"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#writesReview"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#writtenBy"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#aboutArtwork"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#appliesTo"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#containsArtwork"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#createsAccount"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#createsArtwork"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#deliveredBy"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#deliveredTo"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#forOrder"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasPromotion"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#haveShippingStatus"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#includedInOrder"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#ownedBy"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#ownsAccount"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#paidBy"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#placesOrder"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#receivesOrder"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#reviewedBy"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#statusOf"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#subscribedBy"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#subscribesTo"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#usedForOrder"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#writesReview"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#writtenBy"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#address"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#amount"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#biography"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artist"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#city"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#comment"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#cost"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#country"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#creationDate"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#creationDate"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#customerId"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Customer"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#deliveryType"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryMethod"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#discount"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#discountPercentage"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#email"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#endDate"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#frequency"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#lastUpdated"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#method"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#name"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#newsletterBody"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#newsletterName"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#NewsLetter"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#orderDate"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#orderId"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#password"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#paymentDate"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#paymentId"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Payment"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#postalCode"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#DeliveryLocation"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#price"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#promotionId"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#rating"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#reviewDate"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#reviewId"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Review"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#shippingStatus"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#ShippingStatus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#startDate"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Promotion"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#stockQuantity"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#storeName"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Owner"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#subscriptionDate"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#RegisteredCustomer"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#title"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Artwork"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#totalAmount"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#Order"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#username"/>
-        <Class IRI="http://www.semanticweb.org/uutsavacharya15/desktop/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
+        <Class IRI="http://www.semanticweb.org/ontologyprj/OnlineArtStoreOntology.owl#OnlineAccount"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#address"/>
