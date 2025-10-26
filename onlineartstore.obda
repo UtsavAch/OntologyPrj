@@ -1,5 +1,5 @@
 [DataSourceDeclaration]
-connectionUrl = jdbc:h2:tcp://localhost/~/OnlineArtStore
+connectionUrl = jdbc:h2:tcp://localhost/~/onlineartprj
 username = sa
 password = 
 driverClass = org.h2.Driver
