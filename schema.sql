@@ -1,4 +1,5 @@
 CREATE SCHEMA IF NOT EXISTS OnlineArtStore;
+SET SCHEMA OnlineArtStore;
 SET search_path TO OnlineArtStore;
 -----------------------------------------------------------
 

@@ -1,0 +1,159 @@
+[DataSourceDeclaration]
+connectionUrl = jdbc:h2:tcp://localhost/~/OnlineArtStore
+username = sa
+password = 
+driverClass = org.h2.Driver
+
+[MappingDeclaration]
+
+#####################################################################
+# PERSON HIERARCHY
+#####################################################################
+mappingId PersonMapping
+target :Person/{personId} a :Person ;
+       :name "{name}"^^xsd:string ;
+       :email "{email}"^^xsd:string .
+source SELECT personId, name, email FROM Person;
+
+mappingId OwnerMapping
+target :Owner/{personId} a :Owner ;
+       :storeName "{storeName}"^^xsd:string ;
+       :isPerson :Person/{personId} .
+source SELECT personId, storeName FROM Owner;
+
+mappingId OwnerMapping
+target :Owner/{personId} a :Owner ;
+        :storeName "{storeName}"^^xsd:string ;
+        :isPerson :Person/{personId} .
+source SELECT personId, storeName FROM Owner;
+
+mappingId ArtistMapping
+target :Artist/{personId} a :Artist ;
+        :biography "{biography}"^^xsd:string ;
+        :country "{country}"^^xsd:string ;
+        :isPerson :Person/{personId} .
+source SELECT personId, biography, country FROM Artist;
+
+mappingId CustomerMapping
+target :Customer/{personId} a :Customer ;
+        :customerId "{customerId}"^^xsd:string ;
+        :isPerson :Person/{personId} .
+source SELECT personId, customerId FROM Customer;
+
+mappingId RegisteredCustomerMapping
+target :RegisteredCustomer/{personId} a :RegisteredCustomer ;
+        :subscriptionDate "{subscriptionDate}"^^xsd:date ;
+        :isCustomer :Customer/{personId} .
+source SELECT personId, subscriptionDate FROM RegisteredCustomer;
+
+#####################################################################
+# ARTWORK HIERARCHY
+#####################################################################
+
+mappingId ArtworkMapping
+target :Artwork/{artworkId} a :Artwork ;
+        :title "{title}"^^xsd:string ;
+        :price "{price}"^^xsd:decimal ;
+        :creationDate "{creationDate}"^^xsd:date ;
+        :stockQuantity "{stockQuantity}"^^xsd:integer ;
+        :createdBy :Artist/{artistId} .
+source SELECT artworkId, title, price, creationDate, artistId, stockQuantity FROM Artwork;
+
+mappingId PaintMapping
+target :Paint/{artworkId} a :Paint ; :isArtwork :Artwork/{artworkId} .
+source SELECT artworkId FROM Paint;
+
+mappingId SketchMapping
+target :Sketch/{artworkId} a :Sketch ; :isArtwork :Artwork/{artworkId} .
+source SELECT artworkId FROM Sketch;
+
+mappingId DigitalMapping
+target :Digital/{artworkId} a :Digital ; :isArtwork :Artwork/{artworkId} .
+source SELECT artworkId FROM Digital;
+
+#####################################################################
+# ORDER INFORMATION
+#####################################################################
+
+mappingId OrderMapping
+target :Order/{orderId} a :Order ;
+        :orderDate "{orderDate}"^^xsd:date ;
+        :totalAmount "{totalAmount}"^^xsd:decimal ;
+        :status "{status}"^^xsd:string ;
+        :orderedBy :Customer/{customerId} .
+source SELECT orderId, orderDate, customerId, totalAmount, status FROM "Order";
+
+mappingId PaymentMapping
+target :Payment/{paymentId} a :Payment ;
+        :method "{method}"^^xsd:string ;
+        :amount "{amount}"^^xsd:decimal ;
+        :hasOrder :Order/{orderId} .
+source SELECT paymentId, method, amount, orderId FROM Payment;
+
+mappingId DeliveryMethodMapping
+target :DeliveryMethod/{methodId} a :DeliveryMethod ;
+        :methodName "{methodName}"^^xsd:string ;
+        :hasOrder :Order/{orderId} .
+source SELECT methodId, methodName, orderId FROM DeliveryMethod;
+
+mappingId ShippingStatusMapping
+target :ShippingStatus/{statusId} a :ShippingStatus ;
+        :currentStatus "{currentStatus}"^^xsd:string ;
+        :hasOrder :Order/{orderId} .
+source SELECT statusId, currentStatus, orderId FROM ShippingStatus;
+
+mappingId DeliveryLocationMapping
+target :DeliveryLocation/{deliveryLocationId} a :DeliveryLocation ;
+        :address "{address}"^^xsd:string ;
+        :city "{city}"^^xsd:string ;
+        :postalCode "{postalCode}"^^xsd:string ;
+        :country "{country}"^^xsd:string ;
+        :hasOrder :Order/{orderId} .
+source SELECT deliveryLocationId, address, city, postalCode, country, orderId FROM DeliveryLocation;
+
+mappingId NationalMapping
+target :National/{deliveryLocationId} a :National ; :isDeliveryLocation :DeliveryLocation/{deliveryLocationId} .
+source SELECT deliveryLocationId FROM National;
+
+mappingId InternationalMapping
+target :International/{deliveryLocationId} a :International ; :isDeliveryLocation :DeliveryLocation/{deliveryLocationId} .
+source SELECT deliveryLocationId FROM International;
+
+#####################################################################
+# OTHER CLASSES
+#####################################################################
+
+mappingId OnlineAccountMapping
+target :OnlineAccount/{accountId} a :OnlineAccount ;
+        :username "{username}"^^xsd:string ;
+        :creationDate "{creationDate}"^^xsd:date ;
+        :belongsTo :Owner/{ownerId} .
+source SELECT accountId, username, creationDate, ownerId FROM OnlineAccount;
+
+mappingId ReviewMapping
+target :Review/{reviewId} a :Review ;
+        :rating "{rating}"^^xsd:integer ;
+        :comment "{comment}"^^xsd:string ;
+        :reviewDate "{reviewDate}"^^xsd:date ;
+        :reviewsArtwork :Artwork/{artworkId} ;
+        :writtenBy :Customer/{customerId} .
+source SELECT reviewId, rating, comment, reviewDate, artworkId, customerId FROM Review;
+
+mappingId PromotionMapping
+target :Promotion/{promotionId} a :Promotion ;
+        :discountPercentage "{discountPercentage}"^^xsd:decimal ;
+        :startDate "{startDate}"^^xsd:date ;
+        :endDate "{endDate}"^^xsd:date ;
+        :appliesTo :Artwork/{artworkId} .
+source SELECT promotionId, discountPercentage, startDate, endDate, artworkId FROM Promotion;
+
+mappingId NewsLetterMapping
+target :NewsLetter/{newsletterId} a :NewsLetter ;
+        :newsletterName "{newsletterName}"^^xsd:string ;
+        :frequency "{frequency}"^^xsd:string .
+source SELECT newsletterId, newsletterName, frequency FROM NewsLetter;
+
+mappingId SubscribesToMapping
+target :RegisteredCustomer/{personId} :subscribesTo :NewsLetter/{newsletterId} .
+source SELECT personId, newsletterId FROM SubscribesTo;
+
